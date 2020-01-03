@@ -29,7 +29,6 @@ codeConfig () {
     )
   for i in ${EXTENSIONS[@]}; do
     code --install-extension ${i}
-    npm i -g bash-language-server
   done
 }
 codeConfig
@@ -64,7 +63,7 @@ if [ -d ~/.config/Code/User/ ]; then
   cat config/settings.json > ~/.config/config/settings.json
 else
   mkdir -p ~/.config/Code/User/
-  cat config/settings.json > ~/.config/config/Code/User/settings.json
+  cat config/settings.json > ~/.config/Code/User/settings.json
 fi
 
 cat config/tmux.conf > ~/.tmux.conf
