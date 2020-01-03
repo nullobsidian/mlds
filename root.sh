@@ -63,7 +63,7 @@ if [ "$(lsb_release -is | tr '[:upper:]' '[:lower:]')" == "ubuntu" ] && [[ $cnRe
       echo "deb [arch=amd64 signed-by=/usr/share/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list # Code
       echo "deb https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee -a /etc/apt/sources.list.d/kubernetes.list # K8s
       until add-apt-repository ppa:obsproject/obs-studio -y; do sleep 0.1s; done #OBS Studio
-      until add-apt-add-repository ppa:zanchey/asciinema -y; do sleep 0.1s; done #aciinema 
+      until add-apt-repository ppa:zanchey/asciinema -y; do sleep 0.1s; done #aciinema 
       echo "0" > /usr/share/.setup-data
       else
       echo "Keys and Repos already installed!"
