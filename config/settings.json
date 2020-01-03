@@ -1,0 +1,7 @@
+{
+    "bashIde.explainshellEndpoint": "http://localhost:5000",
+    "bashIde.path": "/usr/local/bin/bash-language-server",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "Hack Nerd Font Mono",
+    "workbench.colorTheme": "Polymer Syntax Theme"
+}
