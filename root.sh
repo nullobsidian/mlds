@@ -37,6 +37,7 @@ if [ "$(lsb_release -is | tr '[:upper:]' '[:lower:]')" == "ubuntu" ] && [[ $cnRe
       gthumb
       mesa-utils
       ruby-full
+      python3-pip
       python3-distutils
       apt-transport-https
       gnupg-agent
@@ -90,6 +91,7 @@ if [ "$(lsb_release -is | tr '[:upper:]' '[:lower:]')" == "ubuntu" ] && [[ $cnRe
     until apt-get install -y ${PACKAGES[@]}; do sleep 0.1s; done
     if ! which helm; then curl -L https://git.io/get_helm.sh | bash; fi
     gem install colorls
+    npm i -g bash-language-server
     chown -R root:root /usr/share/zsh/vendor-completions/_code
     
     echo -e "[\e[32m+\e[0m] \e[32m\e[1mInstalling\e[0m: Additional Drivers"
