@@ -15,23 +15,6 @@ Fully automating of install packages, including system and user set up and encha
     ./install.sh
 ```
 
-**Packages**
-- code
-- kubectl
-- helm
-- nordvpn
-- gnome-boxes
-- virtualbox
-- docker-ce
-- docker-ce-cli
-- containerd.io
-- brave-browser
-- balena-etcher-electron
-- obs-studio
-- colorls
-- asciinema
-- aws-cli
-
 **Utilites**
 - zsh
 - jq
@@ -51,3 +34,20 @@ Fully automating of install packages, including system and user set up and encha
 - python3-distutils
 - apt-transport-https
 - gnupg-agent
+
+**Packages**
+- code
+- kubectl
+- helm
+- nordvpn
+- gnome-boxes
+- virtualbox
+- docker-ce
+- docker-ce-cli
+- containerd.io
+- brave-browser
+- balena-etcher-electron
+- obs-studio
+- colorls
+- asciinema
+- aws-cli
