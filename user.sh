@@ -36,6 +36,8 @@ codeConfig
 if dpkg --get-selections | grep -E '(^|\s)gnome-shell($|\s)'; then
   echo -e "[\e[32m+\e[0m] \e[32m\e[1mCustomizing\e[0m: GNOME and Desktop Environment"
   wget https://setup-ubuntu-dt.s3.amazonaws.com/wallpapers/background.jpg -P ~/Pictures/Wallpapers
+  wget https://setup-ubuntu-dt.s3.amazonaws.com/wallpapers/screensaver.jpg -P ~/Pictures/Wallpapers
+  gsettings set org.gnome.desktop.screensaver picture-uri file:///home/$USER/Pictures/Wallpapers/screensaver.jpg
   gsettings set org.gnome.desktop.background picture-uri file:///home/$USER/Pictures/Wallpapers/background.jpg
 fi
 
