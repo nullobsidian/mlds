@@ -16,7 +16,6 @@ codeConfig () {
     mauve.terraform # Terraform
     vscoss.vscode-ansible # Ansible 
     ms-python.python # Python
-    mads-hartmann.bash-ide-vscode # Bash
     ms-vscode.Go # Go
     rebornix.Ruby # Ruby
     ms-vscode-remote.vscode-remote-extensionpack # Remote Pack
