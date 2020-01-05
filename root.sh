@@ -138,8 +138,8 @@ if [ "$(lsb_release -is | tr '[:upper:]' '[:lower:]')" == "ubuntu" ] && [[ $cnRe
         apt-get install -y "${GNOME[@]}"
         git clone https://github.com/sunwxg/gnome-shell-extension-unblank.git /tmp/gnome-shell-unblank
         $userExec make install -C /tmp/gnome-shell-unblank
-	    }
-	    gnomeSet
+      }
+      gnomeSet
     fi
     
     echo -e "[\e[32m+\e[0m] \e[32m\e[1mInstalling\e[0m: Installing Extra Fonts and Symbols"
