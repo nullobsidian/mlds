@@ -25,6 +25,7 @@ codeConfig () {
     christian-kohler.path-intellisense # Path Intellisense
     jonwolfe.language-polymer # THEME
     PKief.material-icon-theme # ICONS
+    mads-hartmann.bash-ide-vscode # Bash
     )
   for i in ${EXTENSIONS[@]}; do
     code --install-extension ${i}
