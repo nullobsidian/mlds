@@ -61,7 +61,7 @@ else
 fi
 
 if [ -d ~/.config/Code/User/ ]; then
-  cat config/settings.json > ~/.config/config/settings.json
+  cat config/settings.json > ~/.config/Code/User/settings.json
 else
   mkdir -p ~/.config/Code/User/
   cat config/settings.json > ~/.config/Code/User/settings.json
