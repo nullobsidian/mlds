@@ -3,7 +3,7 @@
 Fully automating of install packages, including system and user set up and enchancing the desktop environment.
 
 - Shell: `oh-my-zsh`
-- Interface: `GNOME` (Preferred)
+- Interface: `GNOME`
 - Terminal: `sakura` and `tmux`
 
 **Tested**
