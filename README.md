@@ -10,6 +10,8 @@ Fully automating of install packages, including system and user set up and encha
 
 - Ubuntu 18.04 LTS
 
+**Installation**
+
 ```shell
     chmod +x install.sh
     ./install.sh
