@@ -8,7 +8,7 @@ Fully automating of install packages, including system and user set up and encha
 
 **Tested**
 
-- Ubuntu 18.04 LTS
+- Ubuntu 18.04 LTS (Pop OS)
 
 **Installation**
 
