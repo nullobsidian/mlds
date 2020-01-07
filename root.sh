@@ -133,6 +133,7 @@ if [ "$(lsb_release -is | tr '[:upper:]' '[:lower:]')" == "ubuntu" ] && [[ $cnRe
           gnome-shell-extension-caffeine
           gnome-shell-extension-log-out-button
           gnome-shell-extension-top-icons-plus
+	  gnome-shell-extension-appindicator
         )
         echo -e "[\e[32m+\e[0m] \e[32m\e[1mInstalling\e[0m: GNOME Extensions"
         apt-get install -y "${GNOME[@]}"
