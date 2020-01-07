@@ -37,6 +37,8 @@ if [ "$(lsb_release -is | tr '[:upper:]' '[:lower:]')" == "ubuntu" ] && [[ $cnRe
       gthumb
       mesa-utils
       ruby-full
+      exfat-fuse
+      exfat-utils
       python3-pip
       python3-distutils
       apt-transport-https
