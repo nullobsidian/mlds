@@ -81,6 +81,7 @@ if [ "$(lsb_release -is | tr '[:upper:]' '[:lower:]')" == "ubuntu" ] && [[ $cnRe
       kubectl
       nordvpn
       gnome-boxes
+      asciinema
       virtualbox
       docker-ce
       docker-ce-cli
