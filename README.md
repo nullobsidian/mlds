@@ -30,6 +30,8 @@ Fully automating of install packages, including system and user set up and encha
 - thefuck
 - ffmpeg
 - gthumb
+- xsel
+- urlview
 - mesa-utils
 - ruby-full
 - python3-pip
