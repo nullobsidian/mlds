@@ -54,6 +54,8 @@ configZsh () {
 }
 configZsh
 
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
 if [ -d ~/.config/sakura/ ]; then
   cat config/sakura.conf > ~/.config/sakura/sakura.conf
 else
