@@ -35,6 +35,7 @@ if [ "$(lsb_release -is | tr '[:upper:]' '[:lower:]')" == "ubuntu" ] && [[ $cnRe
       thefuck
       ffmpeg
       gthumb
+      xsel 
       mesa-utils
       ruby-full
       exfat-fuse
